@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(210 219 218);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.head1 h1{
+    font-size: 50px;
+}
+
+.bodyP ul li{
+    font-size: 20px;
+}
+
+p{
+    color: aliceblue;
+    background-color: hotpink;
+    font-size: 20px;
+}

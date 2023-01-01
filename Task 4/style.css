@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url("./task4.jpg");
+    
+}
+
+.nav{
+    display: flex;
+    background-color: white;
+}
+
+.headP{
+    flex: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 150px;
+}
+
+.headP h1{
+    background-color: rgb(80 171 166);
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 230px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.navP{
+    flex: 1;
+}
+
+.navP ul{
+    display: flex;
+}
+
+.navP ul li{
+    list-style: none;
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 40px;
+    padding: 0px 15px; 
+    position:relative;
+}
+
+.navP ul li a{
+    display: flex;
+    color: rgb(119 119 119);
+    text-decoration: none;
+    justify-content: center;
+    font-weight: bold;
+}
+
+ul li:not(:last-child)::after{
+    content:""; 
+    border:1px solid rgb(221 221 221);
+    border-width: 2px 2px 0 0;
+    position:absolute; 
+    right: -25px; 
+    top: -20px; 
+    height: 70px;
+}
+
+.mainP{
+    display: flex;
+}
+
+.about{
+    flex: 1.5;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 200px;
+    padding-right: 10px;
+}
+
+.about h2{
+    margin-top: 20px;
+    color: rgb(80 171 166);
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    border-bottom: 5px solid rgb(221 221 221);
+    margin-right: 20px;
+}
+
+
+.inSide{
+    
+}
+
+.photo img{
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.otherP{
+    
+}
+
+.otherP h3{
+    color: rgb(119 119 119);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.otherP p{
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.secondP{
+    flex: 1;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 140px;
+    margin-left: 70px;
+    margin-bottom: 390px;
+}
+
+.secondP h2{
+    display: flex;
+    justify-content: center;
+    color: rgb(80 171 166);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 20px;
+    border-bottom: 5px solid rgb(221 221 221);
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.secondP img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 35px;
+    width: 90px;
+    height: 90px;
+    padding: 3px;
+}
+
+.lastP{
+    background-color: rgb(102 102 102);
+    border-top: 10px solid rgb(80 171 166);
+    padding-bottom: 50px;
+}
+
+.lastP p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: larger;
+    color: rgb(119 119 115);
+}

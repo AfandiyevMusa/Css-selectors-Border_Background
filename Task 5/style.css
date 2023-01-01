@@ -1,0 +1,53 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.firstP{
+    display: flex;
+    justify-content: center;
+}
+
+.firstP img{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+}
+
+.mainP p{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.All{
+    display: flex;
+    justify-content: center;
+}
+
+.boxes input{
+    width: 500px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    font-size: large;
+    border-radius: 5px;
+}
+.boxes button{
+    width: 500px;
+    padding: 20px 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    background-color: rgb(14 110 253);
+    color: white;
+    font-size: x-large;
+}
+
+.Last{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 22px;
+    color: rgb(14 110 253);
+    margin-bottom: 100px;
+}
+

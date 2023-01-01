@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(210 162 98);
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.start{
+    background-color: rgb(139 69 30);
+    padding-bottom: 130px;
+}
+
+.start h1{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.mainP{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210 162 98);
+    padding-bottom: 500px;
+}
+
+.options{ 
+
+}
+
+.options ul {
+    display: flex;
+    justify-content: center;
+}
+
+.options ul li{
+    margin-left: 40px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.options ul li a{
+    text-decoration: none;
+    color: rgb(86 116 52);
+    font-size: larger;
+}

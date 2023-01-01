@@ -1,0 +1,250 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(33 43 45);
+}
+
+.firstP{
+    display: flex;
+    flex-direction: column;
+}
+
+.firstP img{
+    position: relative;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.firstP .words{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    color: rgb(195 225 233);
+}
+
+.firstP .words h2{
+    font-size: 35px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.firstP .words p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+}
+
+.navBar ul{
+    display: flex;
+    background-color: rgb(51 61 63);
+}
+
+.navBar ul li:first-child{
+    list-style: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.navBar ul li:not(first-child){
+    list-style: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 80px;
+    position: relative;
+}
+
+ul li:not(:last-child)::after{
+    content:""; 
+    border: 3px solid rgb(67 76 79);
+    border-width: 2px 2px 0 0;
+    position:absolute; 
+    right: -40px;
+    top: -5px; 
+    bottom: 5px;
+    height: 35px;
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: rgb(110 126 127);
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainP{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 40px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 60px;
+}
+
+.leftS{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.upP{
+    display: flex;
+    flex-direction: column;
+}
+
+.upP h1{
+    color: rgb(110 126 127);
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.upP ul{
+    padding-left: 30px;
+    border: 3px solid rgb(36 45 48);
+    border-bottom: 20px;
+}
+
+.upP ul li{
+    list-style-type: square;
+    color: rgb(110 126 127);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.upP ul li a{
+    color: rgb(110 126 127);
+    margin-left: 10px;
+}
+
+.bottomP h1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    color: rgb(110 126 127);
+    margin-left: 40px;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottomP .pWords{
+    border: 3px solid rgb(36 45 48);
+    border-bottom: 20px;
+    
+}
+
+.bottomP p{
+    color: rgb(110 126 127);
+    list-style-type: square;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    line-height: 40px;
+    font-size: 17px;
+    margin-right: 30px;
+}
+
+.rightS{
+    display: flex;
+    flex: 2;
+    padding-left: 35px;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+.upP2{
+    display: flex;
+    flex-direction: column;
+}
+
+.upP2 h1{
+    color: rgb(110 126 127);
+    margin-bottom: 20px;
+    font-size: 35px;
+    border-bottom: 2px solid rgb(88 97 99);
+    padding-bottom: 20px;
+}
+
+.upP2 p{
+    color: rgb(110 126 127);
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.bottomP2{
+    display: flex;
+    margin-top: 30px;
+}
+
+.bottomP2 .leftS2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+    border-right: 2px solid rgb(46 55 58);
+}
+
+button{
+    margin-top: 20px;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(152 171 171);
+    font-weight: bold;
+}
+
+.bottomP2 .rightS2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.bottomP2 h1{
+    color: rgb(110 126 127);
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.bottomP2 p{
+    color: rgb(110 126 127);
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.lastP{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+    border-top: 2px solid rgb(46 55 58);
+}
+
+.lastP p{
+    color: rgb(110 126 127);
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-size: 15px;
+}
